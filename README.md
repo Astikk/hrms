@@ -3,6 +3,8 @@
 A simple **HR Management System (HRMS)** built using **Django REST Framework** for the backend and **React** for the frontend.  
 The system allows managing employees and marking daily attendance.
 
+Test Link : https://hrms-production-5644.up.railway.app/api/
+
 ---
 
 ## 📌 Features
