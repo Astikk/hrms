@@ -10,6 +10,7 @@ class AttendanceCreateView(generics.CreateAPIView):
 
 class AttendanceListView(generics.ListAPIView):
     serializer_class = AttendanceSerializer
+    lookup_field = 'employee_id'
 
     def get_queryset(self):
         employee_id = self.kwargs['employee_id']
